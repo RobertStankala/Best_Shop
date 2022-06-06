@@ -15,7 +15,7 @@ body {
 	opacity: 1;
 }
 .container__header {
-	width: 1352px;
+	max-width: 1352px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -63,7 +63,7 @@ body {
 	position: relative;
 }
 .container__open__section {
-	width: 1352px;
+	max-width: 1352px;
 }
 .open__section__main {
 	position: absolute;
@@ -108,7 +108,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	margin: 0 auto;
-	width: 1352px;
+	max-width: 1352px;
 }
 
 .statistics__title {
@@ -205,7 +205,7 @@ body {
 }
 .container__boxes {
 	margin: 0 auto;
-	width: 1124px;
+	max-width: 1124px;
 }
 .box__first {
 	display: flex;
@@ -349,7 +349,7 @@ body {
 	width: 100vw;
 }
 .container__pricing {
-	width: 1266px;
+	max-width: 1266px;
 	margin: 100px auto;
 	display: flex;
 	flex-direction: column;
