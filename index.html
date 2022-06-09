@@ -1,172 +1,276 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Best Shop</title>
-</head>
-<body>
-  <header class="header">
-    <div class="container__header">
-      <a href="#" class="logo" alt="company logo">BestShop</a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__list__el"><a href="#whyUs" class="menu__list__link" alt="why us">why us</a></li>
-          <li class="menu__list__el"><a href="#benefits" class="menu__list__link" alt="benefits">benefits</a></li>
-          <li class="menu__list__el"><a href="#prices" class="menu__list__link" alt="prices">prices</a></li>
-          <li class="menu__list__el"><a href="#contact" class="menu__list__link" alt="contact">contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <section class="open__section">
-    <div class="container__open__section">
-      <div class="open__section__main">
-        <h1 class="open__section__title">sell more!</h1>
-        <p class="open__section__content">Open shop on our platform and increse your sales</p>
-        <a href="http://www.google.pl" class="open__section__button">Open your shop</a>
-      </div>
-      <img src="./assets/Background.png" alt="Background" class="open__section__background">
-    </div>
-  </section>
-  <section class="statistics">
-    <div class="container__statistics">
-        <h2 class="statistics__title">The most popular sales platform in country</h2>
-        <div class="statistics__icons">
-          <div class="statistics__red">
-            <div class="statistics__circles statistics__red__circle"></div>
-            <p class="statistics__num">100000+</p>
-            <p class="statistics__desc">daily entries</p>
-          </div>
-          <div class="statistics__blue">
-            <div class=" statistics__circles statistics__blue__circle"></div>
-            <p class="statistics__num">2000000+</p>
-            <p class="statistics__desc">seen products<br> every day</p>
-          </div>
-          <div class="statistics__green">
-            <div class="statistics__circles statistics__green__circle"></div>
-            <p class="statistics__num">10000+</p>
-            <p class="statistics__desc">added posts<br> daily</p>
-          </div>
-      </div>
-    </div>
-  </section>
-  <section class="boxes">
-    <div class="container__boxes">
-      <div class="box__first">
-        <div class="boxes__content">
-          <h2 class="boxes__title">Be always first</h2>
-          <p class="boxes__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Best Shop</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container__header">
+				<a href="#" class="logo" alt="company logo">BestShop</a>
+        <div class="menu__hamburger">
+          <span class="menu__navicon"></span>
         </div>
-        <div class="boxes__red__element"></div>
-        <div class="box__first__img"></div>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__list__el">
+							<a
+								href="#whyUs"
+								class="menu__list__link"
+								alt="why us"
+								>why us</a
+							>
+						</li>
+						<li class="menu__list__el">
+							<a
+								href="#benefits"
+								class="menu__list__link"
+								alt="benefits"
+								>benefits</a
+							>
+						</li>
+						<li class="menu__list__el">
+							<a
+								href="#prices"
+								class="menu__list__link"
+								alt="prices"
+								>prices</a
+							>
+						</li>
+						<li class="menu__list__el">
+							<a
+								href="#contact"
+								class="menu__list__link"
+								alt="contact"
+								>contact</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="open__section">
+			<div class="container__open__section">
+				<div class="open__section__main">
+					<h1 class="open__section__title">sell more!</h1>
+					<p class="open__section__content">
+						Open shop on our platform and increse your sales
+					</p>
+					<a href="#" class="open__section__button"
+						>Open your shop</a
+					>
+				</div>
+        <div class="open__section__img">
+				<div class="open__section__background"></div>
       </div>
-      <div class="box__second">
-        <div class="boxes__content">
-          <h2 class="boxes__title">Your shop<br> is where you are!</h2>
-          <p class="boxes__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-        <div class="boxes__blue__element"></div>
-        <div class="box__second__img"></div>
-      </div>
-      <div class="box__third">
-        <div class="boxes__content">
-          <h2 class="boxes__title">Increase recognition your brand!</h2>
-          <p class="boxes__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-        <div class="boxes__green__element"></div>
-      </div>
-    </div>
-  </section>
-  <section class="pricing">
-    <div class="container__pricing">
-      <div class="pricing__title">Pricing</div>
-      <div class="pricing__boxes">
-      <div class="pricing__red__box pricing__box">
-        <p class="pricing__name">Basic</p>
-        <p class="pricing__price">$0</p>
-        <div class="pricing__included">
-          <ul class="pricing__list">
-            <li class="pricing__item">100 MB HDD</li>
-            <li class="pricing__item">1 Subdomain</li>
-            <li class="pricing__item">2 E-mails</li>
-            <li class="pricing__item item__red">Two years license</li>
-            <li class="pricing__item item__red">Full support</li>
-          </ul>
-        </div>
-        <a href="/" class="pricing__begin">Begin</a>
-      </div>
-      <div class="pricing__blue__box pricing__box">
-        <p class="pricing__name">Professional</p>
-        <p class="pricing__price">$25</p>
-        <p class="pricing__limited">Limited offer</p>
-        <div class="pricing__included">
-          <ul class="pricing__list">
-            <li class="pricing__item">500 MB HDD</li>
-            <li class="pricing__item">2 Subdomains</li>
-            <li class="pricing__item">5 E-mails</li>
-            <li class="pricing__item">One year license</li>
-            <li class="pricing__item item__red">Full support</li>
-          </ul>
-        </div>
-        <a href="/" class="pricing__begin">Begin</a>
-      </div>
-      <div class="pricing__green__box pricing__box">
-        <p class="pricing__name">Basic</p>
-        <p class="pricing__price">$60</p>
-        <p class="pricing__limited">Limited offer</p>
-        <div class="pricing__included">
-          <ul class="pricing__list">
-            <li class="pricing__item">2 GB HDD</li>
-            <li class="pricing__item">5 Subdomains</li>
-            <li class="pricing__item">20 E-mails</li>
-            <li class="pricing__item">Two years license</li>
-            <li class="pricing__item">Full support</li>
-          </ul>
-        </div>
-        <a href="/" class="pricing__begin">Begin</a>
-      </div>
-    </div>
-    </div>
-  </section>
-  <section class="contact">
-    <div class="container__contact">
-      <div class="contact__info">
-        <p class="contact__question">Any questions?</p>
-        <p class="contact__question__under">Leave your email address or call us!</p>
-        <div class="contact__email__phone">
-          <p class="contact__email">info@bestshop.xyz</p>
-          <p class="contact__phone">123 456 789</p>
-        </div>
-      </div>
-      <form class="contact__form">
-        <label class="contact__label contact__label__name">name<input name="name" class="contact__input contact__input__name"></label>
-        <label class="contact__label contact__label__email">email<input name="email" class="contact__input contact__input__email"></label>
-        <div class="contact__checkbox__info">
-          <input type="checkbox" name="checkbox" class="contact__checkbox">
-          <p class="contact__info">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>  
-        </div>
-        <button class="contact__btn">Send</button>
-      </form>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container__footer">
-      <div class="footer__left">
-      <a href="#" class="logo footer__logo" alt="company logo">BestShop</a>
-      <div class="footer__note">© 2019 BestShop LTD, All Rights Reserved</div>
-      </div>
-      <div class="footer__right">
-        <a href="https://twitter.com/" class="footer__twitter"></a>
-        <a href="https://www.facebook.com/" class="footer__fb"></a>
-      </div>
-    </div>
-  </footer>
-</body>
+			</div>
+		</section>
+		<section class="statistics">
+			<div class="container__statistics">
+				<h2 class="statistics__title">
+					The most popular sales platform in country
+				</h2>
+				<div class="statistics__icons">
+					<div class="statistics__red">
+						<div
+							class="statistics__circles statistics__red__circle"
+						></div>
+						<p class="statistics__num">100000+</p>
+						<p class="statistics__desc">daily entries</p>
+					</div>
+					<div class="statistics__blue">
+						<div
+							class="statistics__circles statistics__blue__circle"
+						></div>
+						<p class="statistics__num">2000000+</p>
+						<p class="statistics__desc">
+							seen products<br />
+							every day
+						</p>
+					</div>
+					<div class="statistics__green">
+						<div
+							class="statistics__circles statistics__green__circle"
+						></div>
+						<p class="statistics__num">10000+</p>
+						<p class="statistics__desc">
+							added posts<br />
+							daily
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="boxes">
+			<div class="container__boxes">
+				<div class="box__first">
+					<div class="boxes__content">
+						<h2 class="boxes__title">Be always first</h2>
+						<p class="boxes__desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
+					<div class="boxes__red__element"></div>
+					<div class="box__first__img"></div>
+				</div>
+				<div class="box__second">
+					<div class="boxes__content">
+						<h2 class="boxes__title">
+							Your shop<br />
+							is where you are!
+						</h2>
+						<p class="boxes__desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
+					<div class="boxes__blue__element"></div>
+					<div class="box__second__img"></div>
+				</div>
+				<div class="box__third">
+					<div class="boxes__content">
+						<h2 class="boxes__title">
+							Increase recognition your brand!
+						</h2>
+						<p class="boxes__desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
+					<div class="boxes__green__element"></div>
+				</div>
+			</div>
+		</section>
+		<section class="pricing">
+			<div class="container__pricing">
+				<div class="pricing__title">Pricing</div>
+				<div class="pricing__boxes">
+					<div class="pricing__red__box pricing__box">
+						<p class="pricing__name">Basic</p>
+						<p class="pricing__price">$0</p>
+						<div class="pricing__included">
+							<ul class="pricing__list">
+								<li class="pricing__item">100 MB HDD</li>
+								<li class="pricing__item">1 Subdomain</li>
+								<li class="pricing__item">2 E-mails</li>
+								<li class="pricing__item item__red">
+									Two years license
+								</li>
+								<li class="pricing__item item__red">
+									Full support
+								</li>
+							</ul>
+						</div>
+						<a href="/" class="pricing__begin">Begin</a>
+					</div>
+					<div class="pricing__blue__box pricing__box">
+						<p class="pricing__name">Professional</p>
+						<p class="pricing__price">$25</p>
+						<p class="pricing__limited">Limited offer</p>
+						<div class="pricing__included">
+							<ul class="pricing__list">
+								<li class="pricing__item">500 MB HDD</li>
+								<li class="pricing__item">2 Subdomains</li>
+								<li class="pricing__item">5 E-mails</li>
+								<li class="pricing__item">One year license</li>
+								<li class="pricing__item item__red">
+									Full support
+								</li>
+							</ul>
+						</div>
+						<a href="/" class="pricing__begin">Begin</a>
+					</div>
+					<div class="pricing__green__box pricing__box">
+						<p class="pricing__name">Basic</p>
+						<p class="pricing__price">$60</p>
+						<p class="pricing__limited">Limited offer</p>
+						<div class="pricing__included">
+							<ul class="pricing__list">
+								<li class="pricing__item">2 GB HDD</li>
+								<li class="pricing__item">5 Subdomains</li>
+								<li class="pricing__item">20 E-mails</li>
+								<li class="pricing__item">Two years license</li>
+								<li class="pricing__item">Full support</li>
+							</ul>
+						</div>
+						<a href="/" class="pricing__begin">Begin</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<div class="container__contact">
+				<div class="contact__info">
+					<p class="contact__question">Any questions?</p>
+					<p class="contact__question__under">
+						Leave your email address or call us!
+					</p>
+					<div class="contact__email__phone">
+						<p class="contact__email">info@bestshop.xyz</p>
+						<p class="contact__phone">123 456 789</p>
+					</div>
+				</div>
+				<form class="contact__form">
+					<label class="contact__label contact__label__name"
+						>name<input
+							name="name"
+							class="contact__input contact__input__name"
+					/></label>
+					<label class="contact__label contact__label__email"
+						>email<input
+							name="email"
+							class="contact__input contact__input__email"
+					/></label>
+					<div class="contact__checkbox__info">
+						<input
+							type="checkbox"
+							name="checkbox"
+							class="contact__checkbox"
+						/>
+						<p class="contact__info">
+							I hereby give consent for my personal data included
+							in my application to be processed for the purposes
+							of the recruitment process under the European
+							Parliament’s and Council of the European Union
+							Regulation on the Protection of Natural Persons as
+							of 27 April 2016, with regard to the processing of
+							personal data and on the free movement of such data,
+							and repealing Directive 95/46/EC (Data Protection
+							Directive)
+						</p>
+					</div>
+					<button class="contact__btn">Send</button>
+				</form>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container__footer">
+				<div class="footer__left">
+					<a href="#" class="logo footer__logo" alt="company logo"
+						>BestShop</a
+					>
+					<div class="footer__note">
+						© 2019 BestShop LTD, All Rights Reserved
+					</div>
+				</div>
+				<div class="footer__right">
+					<a href="https://twitter.com/" class="footer__twitter"></a>
+					<a href="https://www.facebook.com/" class="footer__fb"></a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

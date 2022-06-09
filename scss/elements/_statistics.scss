@@ -1,0 +1,124 @@
+.statistics {
+	height: 531px;
+	width: 100vw;
+}
+.container__statistics {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1352px;
+}
+
+.statistics__title {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 36px;
+	font-family: "Raleway", sans-serif;
+}
+.statistics__icons {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 100px auto 0 auto;
+	gap: 210px;
+}
+.statistics__circles {
+	width: 63px;
+	height: 63px;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+.statistics__red,
+.statistics__blue,
+.statistics__green {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.statistics__red__circle {
+	background-color: #fb3b64;
+	position: relative;
+}
+.statistics__red__circle::after {
+	position: absolute;
+	content: "";
+	height: 52px;
+	width: 44px;
+	background-image: url(../assets/Person.svg);
+	left: 30px;
+}
+.statistics__blue {
+}
+
+.statistics__blue__circle {
+	background-color: #08a6e4;
+	position: relative;
+}
+.statistics__blue__circle::after {
+	position: absolute;
+	content: "";
+	width: 65px;
+	height: 37px;
+	background-image: url(../assets/Eye.svg);
+	left: 20px;
+	top: 15px;
+}
+.statistics__green {
+}
+
+.statistics__green__circle {
+	background-color: #55dfb4;
+	position: relative;
+}
+.statistics__green__circle::after {
+	position: absolute;
+	content: "";
+	width: 52px;
+	height: 48px;
+	background-image: url(../assets/Catalog.svg);
+	left: 30px;
+	top: 5px;
+}
+.statistics__num {
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: 6px;
+	margin-bottom: 20px;
+}
+.statistics__desc {
+	color: #a5a5a5;
+	font-size: 16px;
+	margin: 0 20px;
+	text-align: center;
+}
+@media (max-width: 900px) {
+	.statistics{
+		height: 750px;
+		// margin-top: 50px;
+	}
+	.container__statistics {
+		height: 750px;
+		// margin-top: 50px;
+	}
+	.statistics__title{
+		padding: 0 100px;
+		margin-top: 0;
+	}
+	.statistics__title{
+	}
+	.statistics__icons{
+		display: flex;
+		flex-direction: column;
+		height: 500px;
+		margin-top: 25px;
+		gap: 50px;
+	}
+}
+@media (max-width: 376px){
+	.statistics__title {
+		padding: 0px 70px;
+	}
+}

@@ -1,0 +1,238 @@
+.pricing {
+	width: 100vw;
+}
+.container__pricing {
+	max-width: 1266px;
+	margin: 100px auto;
+	padding: 0 30px 0 15px;
+	display: flex;
+	flex-direction: column;
+}
+.pricing__boxes {
+	display: flex;
+	justify-content: space-between;
+}
+.pricing__title {
+	text-align: center;
+	font-size: 36px;
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 50px;
+}
+
+.pricing__box {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 362px;
+	height: 461px;
+	border-radius: 18px;
+}
+.pricing__red__box {
+	border: 1px solid #fb3b64;
+	margin-top: 20px;
+}
+.pricing__blue__box {
+	width: 400px;
+	height: 500px;
+	border: 1px solid #07ace6;
+	box-shadow: 5px 10px 27px #07ace629;
+}
+.pricing__green__box {
+	border: 1px solid #55dfb4;
+	margin-top: 20px;
+}
+.pricing__name {
+	text-align: center;
+	color: #13253b;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 34px;
+	margin-bottom: 14px;
+}
+.pricing__price {
+	text-align: center;
+	font-size: 46px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+.pricing__red__box .pricing__price {
+	margin-bottom: 69px;
+	color: #fb3b64;
+}
+.pricing__blue__box .pricing__price {
+	color: #07ace6;
+}
+.pricing__green__box .pricing__price {
+	color: #55dfb4;
+}
+.pricing__limited {
+	font-size: 12px;
+	font-weight: bold;
+	color: #13253b;
+	margin-top: 5px;
+	margin-bottom: 61px;
+}
+.pricing__green__box .pricing__limited {
+	margin-bottom: 50px;
+}
+.pricing__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.pricing__item {
+	margin-bottom: 20px;
+	position: relative;
+}
+.pricing__item::before {
+	content: "";
+	position: absolute;
+	left: -20px;
+	background-image: url(../assets/Checkmark-1.svg);
+	width: 10px;
+	height: 10px;
+}
+.item__red::before {
+	background-image: url(../assets/Close.svg);
+	width: 10px;
+	height: 10px;
+}
+.pricing__blue__box .pricing__item {
+	margin-bottom: 25px;
+}
+.pricing__begin {
+	position: absolute;
+	top: 100%;
+	transform: translateY(-50%);
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	width: 150px;
+	height: 50px;
+	border-radius: 23px;
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	color: #ffffff;
+}
+.pricing__red__box .pricing__begin {
+	background-color: #eb476e;
+}
+.pricing__blue__box .pricing__begin {
+	background-color: #07ace6;
+	width: 165px;
+	box-shadow: 5px 10px 14px #07ace629;
+}
+.pricing__green__box .pricing__begin {
+	background-color: #55dfb4;
+}
+
+@media (max-width: 1200px) {
+	.container__pricing {
+		padding: 0 15px 0 15px;
+	}
+	.pricing__box {
+		width: 310px;
+		height: 390px;
+	}
+	.pricing__blue__box {
+		width: 320px;
+		height: 430px;
+	}
+}
+@media (max-width: 1000px) {
+	.container__pricing {
+		margin-top: 50px;
+	}
+	.pricing__box {
+		width: 270px;
+		height: 380px;
+	}
+	.pricing__blue__box {
+		width: 280px;
+		height: 420px;
+	}
+}
+@media (max-width: 900px) {
+	.container__pricing {
+		margin-top: 40px;
+	}
+	.pricing__boxes {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+	}
+	.pricing__box {
+		width: 350px;
+	}
+	.pricing__blue__box {
+		width: 400px;
+	}
+}
+@media (max-width: 650px) {
+	.container__pricing {
+		margin-top: 120px;
+	}
+	.pricing__box {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		width: 300px;
+		height: 300px;
+	}
+	.pricing__blue__box {
+		width: 350px;
+	}
+	.pricing__name {
+		position: absolute;
+		top: 25%;
+		left: 15px;
+	}
+	.pricing__red__box .pricing__price,
+	.pricing__blue__box .pricing__price,
+	.pricing__green__box .pricing__price {
+		margin: auto;
+	}
+	.pricing__title {
+		margin-bottom: 30px;
+	}
+	.pricing__blue__box .pricing__price {
+		padding-left: 12px;
+	}
+	.pricing__blue__box .pricing__limited {
+		position: absolute;
+		top: 57%;
+		left: 35px;
+	}
+	.pricing__green__box .pricing__price {
+		padding-left: 25px;
+	}
+	.pricing__green__box .pricing__name {
+		left: 40px;
+	}
+	.pricing__green__box .pricing__limited {
+		position: absolute;
+		top: 57%;
+		left: 25px;
+	}
+	.pricing__list {
+		align-items: start;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.pricing__begin {
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+@media (max-width: 375px) {
+	.container__pricing {
+		margin-top: 50px;
+	}
+}

@@ -1,0 +1,44 @@
+.footer {
+	margin: 0 auto;
+	width: 100vw;
+	height: 89px;
+	background-color: #f7f7f7;
+	box-shadow: 0px -5px 40px #00000029;
+	opacity: 1;
+}
+.container__footer {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1352px;
+	margin: 0 auto;
+	padding: 0 25px 0 15px;
+}
+.footer__logo {
+	padding-right: 0;
+	
+}
+.footer__left {
+}
+
+.footer__note {
+	color: #a5a5a5;
+	font-size: 11px;
+	line-height: 15px;
+	font-family: "Open Sans", sans-serif;
+	margin-bottom: 17px;
+}
+.footer__right {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.footer__twitter {
+	width: 24px;
+	height: 24px;
+	background-image: url(../assets/Twitter.svg);
+}
+.footer__fb {
+	width: 24px;
+	height: 24px;
+	background-image: url(../assets/Facebook.svg);
+}

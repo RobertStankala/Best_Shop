@@ -1,0 +1,68 @@
+.container__open__section {
+	max-width: 1352px;
+	position: relative;
+}
+.open__section__main {
+	position: absolute;
+	width: 100vw;
+	text-align: center;
+}
+.open__section__img {
+	padding-top: 320px;
+}
+.open__section__background {
+	background-image: url(../../assets/Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 70vh;
+}
+
+.open__section__title {
+	font-family: "Raleway", sans-serif;
+	margin-top: 130px;
+	margin-bottom: 20px;
+	font-size: 49px;
+	text-transform: capitalize;
+}
+.open__section__content {
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+.open__section__button {
+	padding: 22px 157px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #08a6e4;
+	border-radius: 40px;
+	text-decoration: none;
+	color: #ffffff;
+	box-shadow: 5px 10px 14px #07ace629;
+}
+@media (max-width: 650px) {
+	.open__section__background {
+		width: 100vw;
+		height: 40vh;
+		margin-top: 30px;
+	}
+	.open__section__content{
+		padding: 0 25px;
+	}
+}
+@media (max-width: 480px) {
+	.open__section__button {
+		padding: 22px 80px;
+	}
+}
+@media (max-width: 375px) {
+	.open__section__button {
+		padding: 22px 80px;
+	}
+	.open__section__title {
+		margin-top: 100px;
+	}
+	.open__section__content {
+		padding: 0px 50px;
+	}
+}

@@ -1,0 +1,167 @@
+.contact {
+	width: 100vw;
+}
+.container__contact {
+	display: flex;
+	justify-content: center;
+	margin: 100px auto 59px auto;
+	width: 896px;
+	height: 376px;
+}
+.contact__info {
+}
+.contact__question {
+	text-align: left;
+	font-size: 49px;
+	line-height: 57px;
+	font-weight: normal;
+	color: #000000;
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 20px;
+}
+.contact__question__under {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 42px;
+	line-height: 22px;
+}
+.contact__email__phone {
+	width: auto;
+	display: flex;
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	color: #a5a5a5;
+	gap: 10px;
+	width: 458px;
+	line-height: 22px;
+}
+.contact__email,
+.contact__phone {
+	position: relative;
+	margin-left: 30px;
+}
+.contact__email::before {
+	content: "";
+	position: absolute;
+	background-image: url(../assets/Mail\ Icon.svg);
+	background-size: cover;
+	width: 27px;
+	height: 27px;
+	left: -31px;
+	bottom: -5px;
+}
+.contact__phone::before {
+	content: "";
+	position: absolute;
+	background-image: url(../assets/Phone\ Icon.svg);
+	background-size: cover;
+	width: 27px;
+	height: 27px;
+	left: -31px;
+	bottom: -5px;
+}
+.contact__form {
+	display: flex;
+	flex-direction: column;
+	width: 440px;
+}
+.contact__label {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	letter-spacing: 3.28px;
+	color: #08a6e4;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+.contact__input {
+	max-width: 440px;
+	border: none;
+	border-bottom: 1px solid #95989a;
+	margin-bottom: 42px;
+	height: 43px;
+}
+
+.contact__input__email {
+}
+.contact__input__name {
+}
+.contact__checkbox__info {
+	display: flex;
+}
+.contact__checkbox {
+}
+.contact__info {
+	font-family: "Open Sans", sans-serif;
+	color: #707070;
+	font-size: 12px;
+	line-height: 17px;
+	margin-left: 10px;
+}
+.contact__btn {
+	margin-left: auto;
+	text-align: center;
+	line-height: 57px;
+	width: 226px;
+	height: 57px;
+	background-color: #08a6e4;
+	border: none;
+	border-radius: 35px;
+	box-shadow: 5px 10px 14px #07ace629;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #ffffff;
+	margin-top: 20px;
+}
+@media (max-width: 1000px) {
+	.container__contact {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 160px auto 140px auto;
+		width: 300px;
+	}
+	// .contact__input{
+	// 	width: 300px;
+	// }
+	.contact__email__phone {
+		margin-bottom: 50px;
+		display: flex;
+		flex-direction: column;
+	}
+	.contact__question{
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+	
+}
+@media (max-width: 850px) {
+	.contact{
+		margin-bottom: 200px;
+	}
+	.container__contact {
+		width: 300px;
+	}
+	.contact__label{
+		font-size: 10px;
+	}
+	.contact__input{
+		width: 350px;
+	}
+	.contact__checkbox__info{
+		width: 340px;
+	}
+	.contact__form, .contact__info{
+		width: 350px;
+	}
+	.contact__question{
+		font-size: 40px;
+	}
+	.contact__btn{
+		margin-right: 20px;
+	}
+}
